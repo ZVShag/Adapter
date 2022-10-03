@@ -38,7 +38,7 @@ public:
         
         return(p_fsensor->get_f() -32.0) * 5.0 / 9.0;
     }
-};///
+};
 int main()
 {
     SetConsoleCP(1251);
